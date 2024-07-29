@@ -1,0 +1,91 @@
+<html>
+<body>
+<div id="profile"> </div>
+<div id="details">
+<p id="name">vandrasi kumar</p>
+<p><img src="C:/Users/user/Downloads/email.webp" width="25" height="25"> &nbsp chaitanyarocky@gmail.com</p> 
+<p><img src="C:/Users/user/Downloads/phone.jpg" width="25" height="25"> &nbsp +91-1234567890</p>
+</div>
+<div id="more">
+ <span><div id="ab" onclick="ab()">AboutMe</div></span> &nbsp &nbsp &nbsp
+ <span><div id="sk" onclick="sk()">Skills</div></span> &nbsp &nbsp &nbsp
+ <span><div id="pr" onclick="pr()">projects</div></span> &nbsp &nbsp &nbsp
+ <div id="re" onclick="re()">Recommendations</div> &nbsp
+</div>
+<style>
+#profile{
+ height:80px;
+ width:80px;
+ position:absolute;
+ top: 20px;
+ left: 30px;
+ background:rgba(0,0,0,.4);
+ background-image:url("C:/Users/user/Downloads/unknown.jpg");
+  background-size:cover;
+background-position:center;
+ box-shadow: 0 15px 25px rgba(0,0,0,.6);
+ border-radius: 10px;
+ padding:3px;
+}
+#ab:hover{
+ font-size:20px;
+ text-decoration:underline;
+ cursor:pointer;
+}
+#sk:hover{
+ font-size:20px;
+ text-decoration:underline;
+ cursor:pointer;
+}
+#pr:hover{
+ font-size:20px;
+ text-decoration:underline;
+ cursor:pointer;
+}
+#re:hover{
+ font-size:20px;
+ text-decoration:underline;
+ cursor:pointer;
+}
+body{
+ background-image:url("C:/Users/user/Downloads/NEW1-edx-higher-res-optimized.max-2880x1800.jpg");
+background-size:cover;
+background-position:center;
+
+}
+div{
+ color:white;
+ font-family: verdana;
+ display: inline-block;
+}
+#name{
+ font-size:20px;
+ color:white;
+ font-family:timesnewroman;
+ font-size: 30px;
+}
+#details{
+ position:absolute;
+ top:110px;
+ left:20px;
+}
+#more{
+ float:right;
+}
+</style>
+<script>
+ function ab(){
+  window.location.href = "about me.html";
+ }
+ function sk(){
+  window.location.href = "skills.html";
+ }
+ function pr(){
+  window.location.href = "project.html";
+ }
+ function re(){
+  window.location.href = "recommendation.html";
+ }
+</script>
+</body>
+</html>
